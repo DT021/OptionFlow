@@ -13,7 +13,7 @@ import argparse
 import sys
 import datetime
 
-# python C:\Users\Administrator\Desktop\OptionFlow\broadcast_remote.py -url https://app.flowalgo.com/ -login_url https://app.flowalgo.com/users/login -proxy http:3.92.226.234:80 -username optionflow -password ethan123456 -target "Option Flow"
+# python C:\Users\Administrator\Desktop\OptionFlow\broadcast_remote.py -url https://app.flowalgo.com/ -login_url https://app.flowalgo.com/users/login -proxy http:3.92.226.234:80 -username optionflow5 -password option123 -free_target "Option Flow Free" -vip_target "Option FlowVIP"
 parser = argparse.ArgumentParser()
 parser.add_argument('-url', type=str, default=None)
 parser.add_argument('-login_url', type=str, default=None)
